@@ -1,0 +1,51 @@
+@charset "utf-8";
+/** simple gray */
+
+body { color: #333333; font-size:14px; line-height:1.6; font-family:"ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif; }
+
+#OF_form1 p#announce .error {
+	color:#c92422
+}
+#OF_form1 .must {
+	color:#c92422
+}
+#OF_header .must {
+	color:#c92422
+}
+#OF_form1 table#formtable {
+	border-left:1px solid #949499;
+	border-top:1px solid #949499;
+}
+#OF_form1 table#formtable tr#caption th {
+	background-color:#b3b3b3;
+	border-right:1px solid #949499;
+	border-bottom:1px solid #949499;
+	color:#333;
+}
+#OF_form1 table#formtable tr th,
+#OF_form1 table#formtable tr td {
+	border-right:1px solid #949499;
+	border-bottom:1px solid #949499;
+}
+#OF_form1 table#formtable tr th {
+	background-color:#F5F5F5;
+	color:#333;
+}
+#OF_form1 table#formtable tr td {
+	color:#666;
+}
+#OF_form1 input.OF_submit_btn1 {
+	background-color:#b3b3b3;
+	border:1px solid #949499;
+	color:#333;
+}
+#OF_form1 input.action_send {
+	background-color:#b3b3b3;
+	border:1px solid #949499;
+	color:#333;
+}
+#OF_form1 input.action_back {
+	background-color:#F5F5F5;
+	border:1px solid #949499;
+	color:#333;
+}

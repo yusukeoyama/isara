@@ -1,0 +1,333 @@
+@charset "utf-8";
+/** simple base */
+
+/** common */
+img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+#OF_form1 {
+	width:550px;
+	text-align:left;
+}
+#OF_form1 table#formtable {
+	border-collapse:collapse;
+}
+#OF_form1 table#formtable tr#caption th {
+	width:544px;
+	padding:5px;
+}
+#OF_form1 table#formtable tr th,
+#OF_form1 table#formtable tr td {
+	padding:3px;
+	font-size:12px;
+}
+#OF_form1 table#formtable tr th {
+	width:150px;
+	vertical-align:center;
+	/*text-align:center;*/
+	font-weight:bold;
+	font-size:12px;
+}
+#OF_form1 table#formtable tr td {
+	width:388px;
+}
+#OF_form1 table#formtable tr td label{
+	display:block;
+	float:left;
+	/*white-space:nowrap;*/
+}
+#OF_form1 input.OF_submit_btn1 {
+	display:block;
+	margin:10px auto;
+	font-size:16px;
+	padding:5px;
+	cursor: pointer;
+}
+#OF_form1 input.action_send {
+	margin:10px auto;
+	font-size:16px;
+	padding:5px;
+	cursor: pointer;
+}
+#OF_form1 input.action_back {
+	margin:10px auto;
+	font-size:16px;
+	padding:5px;
+	cursor: pointer;
+}
+#OF_form1 input.text {
+	width:200px;
+}
+#OF_form1 textarea {
+	width:335px; height:100px;
+}
+#formtable input[type="text"] {
+	display: inline-block;
+}
+
+/** unique */
+#OF_form1 #sec_seimei input {
+	width:60px;
+}
+#OF_header {
+	width:700px;
+	text-align:left;
+}
+#OF_footer {
+	width:700px;
+	text-align:left;
+}
+#OF_header h1#default {
+	font-size:24px;
+}
+#OF_header img {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	/* width: 100%; */
+}
+
+/** required free */
+#OF_form1 .required {
+	color: #FFF;
+	background-color: #F20000;
+	padding: 1px 3px 0px 3px;
+	margin-left: 5px;
+	float: right;
+}
+#OF_form1 .free {
+	color: #FFF;
+	background-color: #0000E8;
+	padding: 1px 3px 0px 3px;
+	margin-left: 5px;
+	float: right;
+}
+
+#OF_form1 .form_errors,
+#OF_form1 .form_error {
+	margin:1em 0;
+	font-size:12px;
+	color:#f00;
+	font-weight:bold;
+}
+
+
+#OF_form1 input[type="text"][name="single_seimei"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="mail"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="single_mobile_tel"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="mobile_mail"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="skype"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="mixi"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="url_mailmag"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="url_blog"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="url"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="single_zip"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="address1"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="address2"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="single_tel"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="single_fax"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="co"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="_co"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="position"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="title"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="jobtype"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free1"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="biztype"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free1"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free2"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free3"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free4"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free5"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free6"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free7"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free8"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free9"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free10"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free11"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free12"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free13"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free14"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free15"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free16"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free17"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free18"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free19"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free20"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free21"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free22"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free23"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free24"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free25"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free26"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free27"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free28"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free29"]{ width: 99% !important; }
+#OF_form1 input[type="text"][name="free30"]{ width: 99% !important; }
+#OF_form1 select[name="pref"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="blood"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free1"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free2"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free3"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free4"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free5"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free6"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free7"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free8"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free9"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free10"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free11"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free12"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free13"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free14"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free15"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free16"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free17"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free18"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free19"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free20"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free21"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free22"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free23"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free24"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free25"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free26"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free27"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free28"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free29"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 select[name="free30"]{ width: 99.7% !important; padding: 1px; }
+#OF_form1 textarea { width: 99% !important; padding: 1px;}
+#OF_form1 tr th { text-align: left;}
+#OF_form1 table#formtable tr th {width: 200px; padding: 5px 20px; }
+#OF_form1 table#formtable tr td {width: 500px; }
+#OF_form1 { width: 700px; }
+#OF_form1 #caption th { text-align: center; font-size: 1.3em !important;}
+
+/* Responsive */
+@media only screen and (max-width:480px){
+	#OF_header,
+	#OF_footer {
+	width: 100%;
+	}
+	#OF_form1 {
+	width: 100%;
+	}
+	#OF_form1 table#formtable tr#caption th {
+	width: 100%;
+	padding: 5px 0;
+	}
+	tr#caption {
+	width: 100%;
+	}
+	#OF_form1 table#formtable tr th,
+	#OF_form1 table#formtable tr td {
+	width: 100%;
+	padding: 5px 0;
+	}
+	#OF_form1 .required,
+	#OF_form1 table#formtable tr td label {
+	float: none;
+	}
+	#OF_form1 select {
+	margin-left: 5px;
+	}
+	    #formtable { width: 100%; margin: 5px 0; }
+	#formtable th,
+	#formtable td{
+	width: 100%;
+	display: block;
+	border-top: none;
+	}
+	#formtable input[type="text"],
+	#formtable textarea {
+	width: 95%;
+	margin:5px;
+	}
+	#OF_form1 input[type="text"][name="single_seimei"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="mail"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="single_mobile_tel"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="mobile_mail"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="skype"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="mixi"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="url_mailmag"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="url_blog"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="url"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="single_zip"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="address1"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="address2"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="single_tel"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="single_fax"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="co"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="_co"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="position"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="title"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="jobtype"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free1"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="biztype"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free1"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free2"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free3"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free4"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free5"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free6"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free7"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free8"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free9"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free10"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free11"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free12"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free13"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free14"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free15"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free16"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free17"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free18"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free19"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free20"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free21"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free22"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free23"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free24"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free25"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free26"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free27"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free28"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free29"]{ width: 95% !important; }
+	#OF_form1 input[type="text"][name="free30"]{ width: 95% !important; }
+	#OF_form1 select[name="pref"]{ width: 96.7% !important; }
+	#OF_form1 select[name="blood"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free1"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free2"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free3"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free4"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free5"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free6"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free7"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free8"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free9"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free10"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free11"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free12"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free13"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free14"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free15"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free16"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free17"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free18"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free19"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free20"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free21"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free22"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free23"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free24"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free25"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free26"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free27"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free28"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free29"]{ width: 96.7% !important; }
+	#OF_form1 select[name="free30"]{ width: 96.7% !important; }
+	#OF_form1 textarea { width: 95% !important; }
+
+}
